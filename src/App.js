@@ -9,9 +9,9 @@ import PanelPage from './components/Main'
 class App extends Component {
   render() {
     return (
-      <MDBContainer fluid  className="App">
+      <MDBContainer fluid  className="App" style={{padding:0}}>
         <MDBRow>
-          <MDBCol size="2"><Sidebar/></MDBCol>
+          <MDBCol size="2" ><Sidebar/></MDBCol>
           <MDBCol size="10"><PanelPage/></MDBCol>
           
         </MDBRow>

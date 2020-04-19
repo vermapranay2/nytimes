@@ -11,8 +11,8 @@ function Sidebar() {
   return (
     <MDBCard className="text-center">
 
-      <MDBCardBody>
-        <List style={{height:'100vh'}} >
+      <MDBCardBody >
+        <List style={{height:'100vh' }} >
 
           <ListItem button>
             <img src={logo}></img>
